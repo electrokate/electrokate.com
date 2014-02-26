@@ -1,0 +1,406 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* Import Sass mixins, variables, Compass modules, etc. */
+@import "init";
+
+/* HTML element (SMACSS base) rules */
+@import "normalize";
+
+/* Layout rules */
+@import "layouts/responsive";
+
+/* Component (SMACSS module) rules */
+@import "components/misc";
+// Optionally, add your own components here.
+@import "print";
+
+/* SMACSS theme rules */
+/* @import "theme-A"; */
+/* @import "theme-B"; */
+
+body {
+	background-color: #fff;
+	font-family: georgia;
+	color:#747071;
+	font-size: 1em;
+	line-height: 1.5em;
+
+}
+#page{
+	margin-top: 20px;
+	background: white;
+	@media (max-width:500px){ 
+	margin-top: 0;
+}
+
+}
+#page-wrapper {
+	background: rgb(240, 240, 240);
+	margin: 40px 10%;
+	padding-bottom: 20px;
+	@media (max-width:500px){
+	margin: 10px 0%;
+	}
+}
+.electrokate-menu{
+	padding-left: 96%;
+	padding-top: 0%;
+	
+@media (max-width:500px){ 
+
+}
+	}
+.electrokate-menu-pages{
+padding:0;
+margin: 0 auto;
+display: table;
+}
+	
+
+
+.ek-logo{
+	
+	padding: 0% 0% 0% 0%;
+	background-size: 32%;
+	background-position: 50%;
+	margin: 0 auto;
+	display: table;;
+}
+
+
+#navigation 	{
+	position: relative;
+
+	.menu{
+	display: block;
+	width: 13%;
+	text-align: right;
+	}
+	.menu {
+
+		li {
+	float: right;
+	width: 180px;
+	padding: 4px 10px 9px 0px;
+	margin-top: 3px;
+
+				a{
+					color:#bebebe;
+					letter-spacing: 0.1em;
+					font-size: 16px;
+					}
+				a:hover{
+					text-decoration: none;
+					color: #d8d8d8;
+					}
+				a:active{
+					color: #d8d8d8;
+
+				}	
+			}
+
+	}
+	}
+
+	#navigation-pages 	{
+	position: relative;
+	margin-top: -26px;
+	border-bottom: 1px solid #d8d8d8;
+
+
+
+	.menu{
+	display: block;
+	width: 100%;
+	padding: 0;
+
+@media (max-width:500px){
+margin-bottom: 0;}
+	
+	}
+	.menu {
+
+		li {
+	padding: 0 20px 20px 0;
+	display: inline-block;
+@media (max-width:500px){
+text-align: center;
+width: 100%;
+padding: 0;
+
+}
+
+
+				a{
+					color:#747071;
+					letter-spacing: 0.1em;
+					font-size: 16px;
+					@media (max-width:500px){
+					border-bottom: 1px solid;}
+					display: block;
+					padding: 10px 0;
+					}
+				a:hover{
+					text-decoration: none;
+					color: #d8d8d8;
+					}
+			}
+
+	}
+	}
+
+.electrokate-window{
+height: 102px;
+background-image: url("../images/catherine-bw.png");
+padding: 100px 0px 50px 0px;
+background-size: 349px 254px;
+background-repeat: no-repeat;
+	@media (max-width:500px){
+		margin-top: 0%;
+		padding: 76px 0 !important;
+	}
+}
+#header {
+float: right;
+border: 1px solid #d8d8d8;
+a{
+	color:gray;
+	font-size: 13px;
+}
+h2{
+	text-transform: uppercase;
+font-size: 16px;
+
+}
+
+ul {
+	list-style: none;
+list-style-image: none;
+margin: .1em .1em;
+}
+.form-item{
+	margin: .1em 0em;
+	
+	label{
+	font-weight:normal !important;
+}
+}
+.form-text{
+	border:none !important;
+}
+.item-list{
+	
+}
+.form-actions{
+
+	padding: 0 0 0 0;
+background-color: #fff;
+border: none;
+display: table;
+margin: 5px auto;
+}
+
+}
+
+input[type="password"] {
+  -webkit-autofill: {
+  background-color:rgb(250, 255, 189);
+  } 
+
+}
+
+
+
+.drupal{
+	padding:19px 39px 14px 70px;
+	color:#535353;
+	display: table;
+	margin: 11px auto;
+	h1{
+	line-height:1em;
+	margin:0;
+	font-size: 3.5em;
+
+	}
+	h2{
+	line-height:.7em;
+	margin:0 0 0 40px;
+	font-size: 1.4em;
+	color: #d8d8d8;
+
+	}
+	h3{
+	line-height:1em;
+	margin:0 0 0 -45px;
+	letter-spacing: 0.3em;
+	font-size: 1.5em;
+	}
+	h4{
+	line-height:.7em;
+	margin:22px 0 0 87px;
+	font-size: 1.4em;
+	color: #d8d8d8;
+	
+
+
+	}
+
+	img {
+	height: 40px;
+	width: 36px;
+	margin-top: -39px;
+margin-left: 28px;
+	}
+	@media (max-width: 768px) and (min-width: 500px){
+	
+	}
+	@media (max-width:500px){
+
+
+	}
+}
+.electrokate-social{
+	margin:30px auto 60px auto;
+	display: table;
+		@media (max-width:500px)
+		{
+		margin-top:0;
+		}
+}
+.facebook{
+	background-image: url("../images/fb-icon.jpeg");
+	background-repeat: no-repeat;
+	padding:25px;
+	float: left;
+	background-size: 100%;
+	margin:0 20px;
+
+}
+.twitter{
+	background-image: url("../images/tw-icon.jpeg");
+	background-repeat: no-repeat;
+	padding:25px;
+	float: left;
+	background-size: 100%;
+	margin:0 20px;
+}
+.email{
+	background-image: url("../images/em-icon.jpeg");
+	background-repeat: no-repeat;
+	padding:25px;
+	float: left;
+	background-size: 100%;
+	margin:0 20px;
+}
+.field-item{
+	text-align:center;
+}
+
+.input:-webkit-autofill {
+	background-color:#ffffff;
+}
+
+.pane-block{
+	
+	text-align: center;
+}
+.ek-block{
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	line-height: 2em;
+	padding: 20px 50px;
+		@media (max-width:500px) {
+		padding: 10px 10px;
+		line-height: 1.5em;
+		}
+	h2{
+	text-transform:uppercase;
+	margin: 0;
+	@media (max-width:500px){
+	line-height: 1em;
+	font-size: 20px;
+	}
+
+	}
+
+}
+.homepage-line{
+	width: 38%;
+height: 10px;
+display: table;
+margin: 0 auto;
+padding-top: 28px;
+border-bottom: 1px solid #c0c0c0;
+	@media (max-width:500px){
+	margin-bottom: 20px;
+	}
+}
+
+@media (max-width:500px){
+	.container-fluid{
+	padding: 0 5px;
+	} 
+}
+
+@media (max-width: 768px) and (min-width: 500px){
+	
+
+.row-fluid .span6{
+float:left;
+width: 48%;
+}
+
+
+}
+
+@media (max-width:768px){
+
+.panels-flexible-region {
+
+float: none;
+width: 100%;
+}
+}
+.top-row{
+	border: 1px solid #DBDBDB;
+}
+.dark-top{
+	background: #464646;
+	@media (max-width:500px){
+	background: #ffffff
+	}
+}
+.pic-top{
+	margin-left: 0 !important;
+border-left: 2px solid #585858;
+@media (max-width:500px){
+margin-top: -30px;}
+}
+
+.pane-block {
+
+iframe{
+	width: 100%
+}
+
+}
+
+.block {
+@media (max-width:500px){
+margin-bottom: 0;}
+}
+.responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
+position: relative;
+}
+
+.responsive-menus.responsified.responsive-toggled span.toggler {
+border-bottom: 3px solid #bbb;
+}
+.responsive-menus.responsified span.toggler {
+padding: 14px;}
