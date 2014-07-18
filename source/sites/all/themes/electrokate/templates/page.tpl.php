@@ -12,7 +12,7 @@
 
 <div id="electrokate-logo" class="ek-logo">
  <a href="/" title="Home" rel="home">
-          <img src="/sites/all/themes/electrokate/images/ek-logo.png" alt="Home"/>
+          <img src="/sites/all/themes/electrokate/images/logo-ek4.png" alt="Home"/>
         </a>
 
 </div>
@@ -61,9 +61,9 @@
             <?php if ($action_links): ?>
             <ul class="action-links"><?php print render($action_links); ?></ul>
             <?php endif; ?>
-            <?php if (!drupal_is_front_page()) { ?>
+            
             <?php print render($page['content']); ?>
-            <?php } ?>
+            
 
 </div>
 </div>

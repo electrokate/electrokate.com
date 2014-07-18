@@ -1,0 +1,84 @@
+.dark-top {
+  background: white; }
+
+body {
+  background-image: url("../images/cabin_room_psd_by_manoluv-d3klg5d-black.png");
+  background-size: cover; }
+
+#page {
+  background: none; }
+
+.ek-logo {
+  padding: 60px 0% 0% 0%;
+  margin: 0 auto;
+  display: table; }
+
+a {
+  color: #bfbbbb; }
+
+a:hover {
+  color: #e1cba9; }
+
+#navigation-pages {
+  position: relative;
+  border: none; }
+  #navigation-pages .menu li a {
+    color: #e1cba9;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    display: block;
+    padding: 30px 0; }
+
+#page-wrapper {
+  background: none;
+  margin: 0;
+  padding-bottom: 20px; }
+
+.facebook {
+  background-image: url("../images/fb.png");
+  background-repeat: no-repeat;
+  padding: 23px;
+  float: left;
+  background-size: 46%;
+  margin: 0 20px; }
+
+.twitter {
+  background-image: url("../images/tw.png");
+  background-repeat: no-repeat;
+  padding: 25px;
+  float: left;
+  background-size: 100%;
+  margin: 0 20px; }
+
+.email {
+  background-image: url("../images/mail.png");
+  background-repeat: no-repeat;
+  padding: 28px;
+  float: left;
+  background-size: 100%;
+  margin: 0 20px; }
+
+.home-text {
+  color: #b6a386;
+  padding: 0 23%; }
+
+.music-text {
+  background-image: url("../images/music-btn.png");
+  background-repeat: no-repeat;
+  padding: 20px 141px;
+  background-size: 100%; }
+
+ul.graphic li {
+  float: left;
+  margin-top: 3px; }
+  ul.graphic li a {
+    background-color: transparent !important;
+    display: inline;
+    padding-right: 20px; }
+  ul.graphic li a.sm2_link {
+    display: inline;
+    background-color: transparent !important;
+    padding-right: 20px; }
+
+.fb-share-button {
+  float: left; }
