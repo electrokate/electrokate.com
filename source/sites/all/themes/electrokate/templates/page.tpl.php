@@ -7,6 +7,8 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
+<html xmlns:og="http://opengraphprotocol.org/schema/">
+</html>
 
 <div id="header-wrapper" class="container-fluid">
 
