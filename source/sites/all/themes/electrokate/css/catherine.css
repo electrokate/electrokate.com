@@ -82,3 +82,26 @@ ul.graphic li {
 
 .fb-share-button {
   float: left; }
+
+ul.playlist li {
+  background-color: transparent; }
+  ul.playlist li a {
+    color: #b6a386;
+    font-size: 50%; }
+  ul.playlist li .timing {
+    position: relative;
+    right: 0;
+    top: 0;
+    padding: 1px 2px;
+    background-color: transparent;
+    border: none; }
+
+ul.playlist li.sm2_playing {
+  background-color: transparent; }
+  ul.playlist li.sm2_playing a {
+    color: #b6a386; }
+ul.playlist li.sm2_playing:hover {
+  background-color: #858585; }
+
+ul.playlist li .controls .statusbar {
+  background-color: white; }
