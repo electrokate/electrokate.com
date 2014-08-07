@@ -32,7 +32,6 @@
   <?php endif; ?>
 
 
-<div class="fb-like" data-href="<?php $curr_url = check_plain("http://" .$_SERVER['HTTP_HOST'] .$node_url); echo $curr_url; ?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 
   <?php
     // We hide the comments and links now so that we can render them later.

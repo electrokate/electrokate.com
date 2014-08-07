@@ -116,6 +116,12 @@ div.jp-audio div.jp-type-playlist div.jp-duration {
   top: 27px;
   left: 59px;
   width: 121px; }
+div.jp-audio div.jp-type-playlist a.jp-pause {
+  top: 0;
+  left: -5px; }
+div.jp-audio div.jp-type-playlist a.jp-unmute {
+  top: 5px;
+  left: 182px; }
 
 div.jp-playlist ul {
   padding: 0 0;
@@ -158,6 +164,18 @@ a.jp-next {
 
 a.jp-previous {
   display: none; }
+
+a.jp-pause {
+  background: url("../images/pause.png");
+  background-size: contain;
+  top: 0;
+  left: -5px; }
+
+a.jp-pause:hover {
+  background: url("../images/pause.png");
+  background-size: contain;
+  top: 0;
+  left: -5px; }
 
 a.jp-mute {
   background: url("../images/loud.png");
