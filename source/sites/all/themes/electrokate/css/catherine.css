@@ -239,6 +239,11 @@ div.jp-audio, div.jp-video {
   background-size: cover;
   margin: 5px;
   width: 31%; }
+  @media (max-width: 768px) {
+    .panels-flexible-region-music_page-center,
+    .panels-flexible-region-music_page-left_1,
+    .panels-flexible-region-music_page-right_1 {
+      width: 100%; } }
 
 .panels-flexible-region-inside,
 .panels-flexible-region-inside-first,
