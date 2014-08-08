@@ -63,10 +63,31 @@ a:hover {
   padding: 0 23%; }
 
 .music-text {
-  background-image: url("../images/music1.png");
   background-repeat: no-repeat;
-  padding: 20px 141px;
-  background-size: 100%; }
+  padding: 20px 60px;
+  background-size: 100%;
+  border-radius: 3px;
+  text-transform: uppercase; }
+  .music-text:hover {
+    background: #e1cba9;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: black; }
+  .music-text a {
+    color: black; }
+  .music-text a:hover {
+    color: black;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s; }
+
+a:-webkit-any-link {
+  text-decoration: none; }
 
 ul.graphic li {
   float: left;
