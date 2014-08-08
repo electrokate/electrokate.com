@@ -65,6 +65,8 @@ a:hover {
 .home-text {
   color: #b6a386;
   padding: 0 23%; }
+  .home-text p {
+    padding: 20px 0; }
 
 .music-text {
   background-repeat: no-repeat;
@@ -108,16 +110,18 @@ ul.graphic li {
 .fb-share-button {
   float: left; }
 
-.fb_iframe_widget {
-  float: right;
-  top: -21px; }
-
 div.jp-interface {
   background-color: transparent;
   border: none; }
 
 div.jp-audio div.jp-type-playlist div.jp-interface {
-  height: 33px; }
+  height: 33px;
+  display: table;
+  padding: 0 140px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  width: auto; }
 div.jp-audio div.jp-type-playlist a.jp-play {
   top: 0;
   left: -5px; }
@@ -151,7 +155,7 @@ div.jp-audio div.jp-type-playlist a.jp-unmute {
 div.jp-playlist ul {
   padding: 0 0;
   margin-top: 27px;
-  margin-left: -6px; }
+  margin-left: 0; }
 
 div.jp-type-playlist div.jp-playlist {
   background-color: transparent;
@@ -232,17 +236,23 @@ a.jp-unmute:hover {
 div.jp-audio, div.jp-video {
   font-size: 1em; }
 
-.panels-flexible-region-music_page-center,
-.panels-flexible-region-music_page-left_1,
-.panels-flexible-region-music_page-right_1 {
-  background-image: url("../images/metal3.png");
+.panels-flexible-region-music_page2-topleft,
+.panels-flexible-region-music_page2-topright,
+.panels-flexible-region-music_page2-left1,
+.panels-flexible-region-music_page2-right1,
+.panels-flexible-region-music_page2-left2,
+.panels-flexible-region-music_page2-right2 {
+  background-image: url("../images/metal4.png");
   background-size: cover;
   margin: 5px;
-  width: 31%; }
+  width: 48%; }
   @media (max-width: 768px) {
-    .panels-flexible-region-music_page-center,
-    .panels-flexible-region-music_page-left_1,
-    .panels-flexible-region-music_page-right_1 {
+    .panels-flexible-region-music_page2-topleft,
+    .panels-flexible-region-music_page2-topright,
+    .panels-flexible-region-music_page2-left1,
+    .panels-flexible-region-music_page2-right1,
+    .panels-flexible-region-music_page2-left2,
+    .panels-flexible-region-music_page2-right2 {
       width: 100%; } }
 
 .panels-flexible-region-inside,
@@ -251,13 +261,28 @@ div.jp-audio, div.jp-video {
   padding: 25px 15px 45px 15px !important; }
 
 .music-titles p {
-  margin: 15px 0 0 0;
-  color: #ececec; }
+  margin: 6% 0 2% 0;
+  color: #eeeeee;
+  text-transform: uppercase; }
 
 .download {
   background-image: url("../images/dl1.png");
   background-repeat: no-repeat;
-  padding: 15px 15px;
+  padding: 7px 14px;
   background-size: 100%;
-  margin: -6px 0 0 0;
+  margin: -4px 0 0 0; }
+
+.metal-btn {
+  background-image: url("../images/metalbutton.png");
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+  background-size: 100%;
+  margin: 0 5px 0 0;
   float: left; }
+
+.right-buttons {
+  float: right; }
+
+.fb-like-box {
+  float: right;
+  margin-top: -100px; }
