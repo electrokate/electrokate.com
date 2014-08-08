@@ -240,7 +240,9 @@ div.jp-audio, div.jp-video {
   margin: 5px;
   width: 31%; }
 
-.panels-flexible-region-inside {
+.panels-flexible-music_page .panels-flexible-region-inside,
+.panels-flexible-music_page .panels-flexible-region-inside-first,
+.panels-flexible-music_page .panels-flexible-region-inside-last {
   padding: 25px 15px 45px 15px; }
 
 .music-titles p {

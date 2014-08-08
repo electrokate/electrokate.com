@@ -24,7 +24,7 @@
 
 
   
-
+      <?php if (!$is_front):?>
 <div id="menu-wrapper" class="container-fluid">
 <div class="row-fluid">
 <div class="span12">
@@ -41,6 +41,7 @@
 </div>
 </div>
 </div>
+       <?php endif; ?>
 
 <div class="container-fluid ">
 
