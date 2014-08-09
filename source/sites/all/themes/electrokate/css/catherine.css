@@ -4,7 +4,8 @@
 body {
   background-image: url("../images/cabin_room_psd_by_manoluv-d3klg5d-black.png");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding: 0; }
 
 p {
   color: #f1d4a7; }
@@ -16,6 +17,9 @@ p {
   padding: 60px 0% 0% 0%;
   margin: 0 auto;
   display: table; }
+  @media (max-width: 500px) {
+    .ek-logo {
+      padding: 0; } }
 
 a {
   color: #bfbbbb; }
@@ -32,6 +36,9 @@ a:hover {
     font-size: 16px;
     display: block;
     padding: 30px 0; }
+    @media (max-width: 500px) {
+      #navigation-pages .menu li a {
+        font-size: 13px; } }
 
 #page-wrapper {
   background: none;
@@ -67,6 +74,9 @@ a:hover {
   padding: 0 23%; }
   .home-text p {
     padding: 20px 0; }
+  @media (max-width: 768px) {
+    .home-text {
+      padding: 0 0; } }
 
 .music-text {
   background-repeat: no-repeat;
@@ -160,6 +170,9 @@ div.jp-playlist ul {
 div.jp-type-playlist div.jp-playlist {
   background-color: transparent;
   border: none; }
+  @media (max-width: 500px) {
+    div.jp-type-playlist div.jp-playlist li {
+      padding: 5px 0px 4px 0px !important; } }
   div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
     list-style-type: none; }
   div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
@@ -271,6 +284,11 @@ div.jp-audio, div.jp-video {
   padding: 7px 14px;
   background-size: 100%;
   margin: -4px 0 0 0; }
+  @media (max-width: 500px) {
+    .download {
+      float: right;
+      margin: -23px 0 0 0;
+      padding: 12px 14px; } }
 
 .metal-btn {
   background-image: url("../images/metalbutton.png");
@@ -279,9 +297,15 @@ div.jp-audio, div.jp-video {
   background-size: 100%;
   margin: 0 5px 0 0;
   float: left; }
+  @media (max-width: 500px) {
+    .metal-btn {
+      margin: 0 0 0 0; } }
 
 .right-buttons {
   float: right; }
+  @media (max-width: 500px) {
+    .right-buttons {
+      float: none; } }
 
 .fb-like-box {
   float: right;

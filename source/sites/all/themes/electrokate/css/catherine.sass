@@ -6,6 +6,7 @@ body
 	background-image: url("../images/cabin_room_psd_by_manoluv-d3klg5d-black.png")
 	background-size: cover
 	background-repeat: no-repeat
+	padding: 0
 
 p
 	color: #F1D4A7
@@ -16,10 +17,15 @@ p
 	padding: 60px 0% 0% 0%
 	margin: 0 auto
 	display: table
+	@media (max-width:500px)
+		padding: 0
+
 a
 	color: #bfbbbb
 a:hover
 	color: #e1cba9
+
+
 #navigation-pages 
 	position: relative
 	border: none
@@ -32,6 +38,8 @@ a:hover
 				font-size: 16px
 				display: block
 				padding: 30px 0
+				@media (max-width:500px)
+					font-size: 13px
 
 #page-wrapper 
 	background: none
@@ -63,6 +71,8 @@ a:hover
 	padding: 0 23%
 	p
 		padding: 20px 0
+	@media (max-width:768px)
+		padding: 0 0
 .music-text
 	background-repeat: no-repeat
 	padding: 20px 60px
@@ -112,6 +122,7 @@ ul.graphic
 
 
 .fb_iframe_widget
+	
 
 div.jp-interface
 	background-color: transparent
@@ -169,6 +180,10 @@ div.jp-type-playlist
 	div.jp-playlist 
 		background-color: transparent
 		border: none
+		li
+		@media (max-width:500px)
+			li	
+				padding: 5px 0px 4px 0px !important
 		li.jp-playlist-current
 			list-style-type: none
 		a.jp-playlist-current
@@ -269,7 +284,10 @@ div.jp-audio, div.jp-video
 	padding: 7px 14px
 	background-size: 100%
 	margin: -4px 0 0 0
-
+	@media (max-width:500px)
+		float: right
+		margin: -23px 0 0 0
+		padding: 12px 14px
 
 .metal-btn
 	background-image: url("../images/metalbutton.png")
@@ -278,8 +296,12 @@ div.jp-audio, div.jp-video
 	background-size: 100%
 	margin: 0 5px 0 0
 	float: left
+	@media (max-width:500px)
+		margin: 0 0 0 0
 .right-buttons
 	float: right
+	@media (max-width:500px)
+		float: none
 
 .fb-like-box
 	float: right

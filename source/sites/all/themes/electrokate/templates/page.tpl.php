@@ -14,7 +14,7 @@
 
 <div id="electrokate-logo" class="ek-logo">
  <a href="/" title="Home" rel="home">
-          <img src="/sites/all/themes/electrokate/images/logo-ek4.png" alt="Home"/>
+          <img src="/sites/all/themes/electrokate/images/logo-ek5.png" alt="Home"/>
         </a>
 
 </div>
