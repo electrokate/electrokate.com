@@ -388,3 +388,19 @@ div.jp-audio, div.jp-video {
   @media (max-width: 768px) {
     .fb-like-box {
       margin-top: 0; } }
+
+#panels-ipe-display-panel-context-page-music-blog-page-music-blog-panel-context {
+  display: table;
+  margin: 0 auto; }
+
+.pane-music-blog-view {
+  line-height: 3.5em; }
+
+.node-music-blog-entry .field-name-field-music-blog-title {
+  font-size: 1.5em;
+  line-height: 2.5em; }
+.node-music-blog-entry .field-name-body {
+  padding: 0 10%; }
+
+#panels-ipe-display-panel-context-page-about-page-about-panel-context {
+  padding: 0 10%; }
