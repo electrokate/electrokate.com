@@ -29,7 +29,8 @@ a:hover {
 
 #navigation-pages {
   position: relative;
-  border: none; }
+  border: none;
+  margin-top: 0; }
   @media (max-width: 500px) {
     #navigation-pages .menu {
       margin: 0; } }
@@ -38,11 +39,20 @@ a:hover {
     letter-spacing: 0.1em;
     font-size: 16px;
     display: block;
-    padding: 30px 0; }
+    padding: 0; }
+    #navigation-pages .menu li a:hover {
+      background: #e1cba9;
+      color: black;
+      border-radius: 3px; }
     @media (max-width: 500px) {
       #navigation-pages .menu li a {
         font-size: 13px;
-        padding: 25px 0 0 0; } }
+        padding: 0; } }
+  #navigation-pages .menu li a.active {
+    background: #e1cba9;
+    color: black;
+    padding: 2px 10px;
+    border-radius: 3px; }
   @media (max-width: 500px) {
     #navigation-pages .menu li.menu__item.is-leaf.last.leaf {
       display: table;
@@ -59,10 +69,20 @@ a:hover {
 .facebook {
   background-image: url("../images/fb.png");
   background-repeat: no-repeat;
-  padding: 23px;
-  float: left;
-  background-size: 46%;
+  padding: 10px;
+  background-size: 50%;
+  margin: 0; }
+
+.reverbnation {
+  background-image: url("../images/reverbnation.png");
+  background-repeat: no-repeat;
+  padding: 6px 141px 0 0;
   margin: 0 20px; }
+
+.sm_reverbnation {
+  background-image: url("../images/reverbnation.png");
+  background-repeat: no-repeat;
+  padding: 6px 10px 0 10px; }
 
 .twitter {
   background-image: url("../images/tw.png");
@@ -71,6 +91,10 @@ a:hover {
   float: left;
   background-size: 100%;
   margin: 0 20px; }
+
+.upperbuttons {
+  margin: -60px 21% 0 0;
+  float: right; }
 
 .email {
   background-image: url("../images/mail.png");

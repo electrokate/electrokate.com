@@ -18,12 +18,21 @@
         </a>
 
 </div>
- <?php if (!$is_front):?>
-  <div class="fb-like-box">
-  <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FElectrokate%2F229385130409949&amp;width&amp;height=62&amp;colorscheme=dark&amp;show_faces=false&amp;header=true&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true"></iframe>
-  </div>
 
- <?php endif; ?>
+
+ <?php 
+/*
+
+
+ if (!$is_front):?>
+
+<div class ="upperbuttons">
+<a class="facebook" href="https://www.facebook.com/pages/Electrokate/229385130409949" target="_blank" title="Facebook"></a>
+<a class="sm_reverbnation" href="http://www.reverbnation.com/electrokate" target="_blank" title="ReverbNation"></a>
+</div>
+ <?php endif; 
+*/
+ ?>
 
 </div>
 
@@ -88,10 +97,13 @@
 
 
 <div class="container-fluid electrokate-social">
+  <div>
+  <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FElectrokate%2F229385130409949&amp;width&amp;height=62&amp;colorscheme=dark&amp;show_faces=false&amp;header=true&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px; width: 180px;" allowTransparency="true"></iframe>
+  </div>
+<a class="reverbnation" href="http://www.reverbnation.com/electrokate" target="_blank" title="ReverbNation"></a>
 
-<a class="facebook" href="//www.facebook.com/pages/Electrokate/229385130409949" target="_blank" title="Facebook"></a>
 
-<a class="email" href="mailto:katy441@gmail.com?subject=Contact Catherine" target="_blank" title="Email"></a>
+
 
 
 
