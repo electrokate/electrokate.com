@@ -31,7 +31,9 @@
     </header>
   <?php endif; ?>
 
-
+<div>
+<a class="music-text" href="/music" title="All Music">All Music</a>
+</div>
 
   <?php
     // We hide the comments and links now so that we can render them later.
@@ -39,6 +41,8 @@
     hide($content['links']);
     print render($content);
   ?>
+
+
 
   <?php print render($content['links']); ?>
 
