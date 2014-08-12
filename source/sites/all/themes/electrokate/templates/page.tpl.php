@@ -91,8 +91,6 @@
 
 <a class="facebook" href="//www.facebook.com/pages/Electrokate/229385130409949" target="_blank" title="Facebook"></a>
 
-<a class="twitter" href="//www.twitter.com/DrupalKate" target="_blank" title="Twitter"></a>
-
 <a class="email" href="mailto:katy441@gmail.com?subject=Contact Catherine" target="_blank" title="Email"></a>
 
 
