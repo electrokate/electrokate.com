@@ -170,9 +170,11 @@ function jplayer_sort_files($raw_files = array(), $player_id, $type = 'single') 
     if (isset($file) && $file['type'] == 'audio') {
       $files[][$file['ext']] = $file['url'];
       $extensions[] = $file['ext'];
-      $playlist[] = '<div class="metal-btn"></div>' . (l($file['label'], $file['url'], array('attributes' => array('id' => $player_id . '_item_' . $num, 'tabindex' => 1)))) . '<div class="right-buttons"><div class="fb-like" data-href="' . $file['url'] . '" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>' . '<a class="download" href="' . $file['url'] . '" download="' . $file['label'] . '"></a></div>';
+      $playlist[] = '<div class="metal-btn"></div>' . (l($file['label'], $file['url'], array('attributes' => array('id' => $player_id . '_item_' . $num, 'tabindex' => 1)))) . '<div class="right-buttons"><div class="fb-like" data-href="' . $file['url'] . '" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>' . '<a class="download" href="' . $file['url'] . '" download="' . $file['label'] . '"></a></div>';
       $num++;
     }
+
+
     elseif (isset($file) && $file['type'] == 'video') {
       $files[][$file['ext']] = $file['url'];
       if ($poster != NULL) {
