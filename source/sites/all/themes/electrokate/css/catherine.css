@@ -2,7 +2,7 @@
   background: white; }
 
 body {
-  background-image: url("../images/cabin_room_psd_by_manoluv-d3klg5d-black.png");
+  background: black;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0; }
@@ -238,6 +238,8 @@ div.jp-playlist ul {
   margin-top: 27px;
   margin-left: 0; }
 
+div.jp-type-playlist li {
+  border-bottom: none !important; }
 div.jp-type-playlist div.jp-playlist {
   background-color: transparent;
   border: none; }
@@ -245,7 +247,8 @@ div.jp-type-playlist div.jp-playlist {
     div.jp-type-playlist div.jp-playlist li {
       padding: 10px 0px 4px 0px !important; } }
   div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
-    list-style-type: none; }
+    list-style-type: none;
+    border-bottom: none; }
   div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
     color: #ffdfad;
     font-weight: bold; }
@@ -353,7 +356,6 @@ div.jp-audio, div.jp-video {
 .panels-flexible-region-music_page2-right1,
 .panels-flexible-region-music_page2-left2,
 .panels-flexible-region-music_page2-right2 {
-  background-image: url("../images/metal4.png");
   background-size: cover;
   margin: 5px;
   width: 48%; }
@@ -400,7 +402,7 @@ div.jp-audio, div.jp-video {
       margin: 0 0 0 0; } }
 
 .right-buttons {
-  float: right; }
+  float: left; }
   @media (max-width: 500px) {
     .right-buttons {
       float: none;
