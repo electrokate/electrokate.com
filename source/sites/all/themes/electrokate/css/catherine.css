@@ -442,3 +442,8 @@ div.jp-audio, div.jp-video {
   @media (max-width: 500px) {
     .node-mp3 a.download {
       margin-top: -25px; } }
+
+.google-search {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: 0; }

@@ -9,16 +9,34 @@
 ?>
 <html xmlns:og="http://opengraphprotocol.org/schema/">
 </html>
+<div id="my-search" class ="google-search">
+<script>
+  (function() {
+    var cx = '018344887540803935366:xhzayjk-itm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
 
+</div>
 <div id="header-wrapper" class="container-fluid">
+
+
 
 <div id="electrokate-logo" class="ek-logo">
  <a href="/" title="Home" rel="home">
           <img src="/sites/all/themes/electrokate/images/logo-ek5.png" alt="Home"/>
         </a>
 
-</div>
 
+
+</div>
 
  <?php 
 /*
