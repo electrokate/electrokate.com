@@ -105,7 +105,7 @@ a:hover
 		padding: 20px 0
 	@media (max-width:768px)
 		padding: 0 0
-.music-text
+ 
 	background-repeat: no-repeat
 	padding: 20px 60px
 	background-size: 100%
@@ -164,8 +164,8 @@ div.jp-interface
 div.jp-audio 
 	div.jp-type-playlist 
 		div.jp-interface
+			display: none
 			height: 33px
-			display: table
 			padding: 0 140px
 			margin: 0 auto
 			background-color: transparent
@@ -237,6 +237,8 @@ div.jp-playlist
 div.jp-type-playlist
 	li
 		border-bottom: none !important
+		padding: 10px 0 10px 52px !important
+
 	div.jp-playlist 
 		background-color: transparent
 		border: none
@@ -247,18 +249,53 @@ div.jp-type-playlist
 		li.jp-playlist-current
 			list-style-type: none
 			border-bottom: none
+			padding-bottom: 20px !important
+
 		a.jp-playlist-current
 			color: #FFDFAD
-			font-weight: bold
+			padding: 20px
+			background: #e1cba9
+			-o-transition: 1s
+			-ms-transition: 1s
+			-moz-transition: 1s
+			-webkit-transition: 1s
+			transition: 1s
+			color: #000	
+			border-radius: 3px
+			padding-left: 5px
+
+		a.jp-playlist-current:before	
+
+			content: url("../images/play-button.png")
+			position: relative
+			top: 13px
+			right: 5px
+
 		a
 			color: #FFF
+			padding: 20px
+			padding-left: 44px
+			&:hover
+				background: #e1cba9
+				-o-transition: 1s
+				-ms-transition: 1s
+				-moz-transition: 1s
+				-webkit-transition: 1s
+				transition: 1s
+				color: #000	
+				border-radius: 3px
+		a:before	
+
+			content: ""
+			position: relative
+			top: 13px
 		@media (max-width:500px)
 			a		
 				font-size: 22px
 div.jp-audio
 	width: auto
 a.jp-play
-	background: url("../images/play3.png")
+	background: url("../images/play-button.png")
 	background-size: contain
 	top: 0
 	left: -5px
@@ -268,7 +305,7 @@ a.jp-play
 		width: 55px
 		height: 55px
 a.jp-play:hover
-	background: url("../images/play3.png")
+	background: url("../images/play-button.png")
 	background-size: contain
 	top: 0
 	left: -5px
@@ -428,3 +465,5 @@ div.jp-audio, div.jp-video
 	max-width: 250px
 	margin-left: auto
 	margin-right: 0
+
+

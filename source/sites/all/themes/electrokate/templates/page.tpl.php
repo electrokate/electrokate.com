@@ -9,7 +9,9 @@
 ?>
 <html xmlns:og="http://opengraphprotocol.org/schema/">
 </html>
-<div id="my-search" class ="google-search">
+
+
+<!-- <div id="my-search" class ="google-search">
 <script>
   (function() {
     var cx = '018344887540803935366:xhzayjk-itm';
@@ -24,7 +26,7 @@
 </script>
 <gcse:search></gcse:search>
 
-</div>
+</div> -->
 <div id="header-wrapper" class="container-fluid">
 
 
