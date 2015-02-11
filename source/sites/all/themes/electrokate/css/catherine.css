@@ -106,18 +106,20 @@ a:hover {
 
 .home-text {
   color: #b6a386;
-  padding: 0 23%;
-  background-repeat: no-repeat;
-  padding: 20px 60px;
-  background-size: 100%;
-  border-radius: 3px;
-  text-transform: uppercase; }
+  padding: 0 23%; }
   .home-text p {
     padding: 20px 0; }
   @media (max-width: 768px) {
     .home-text {
       padding: 0 0; } }
-  .home-text:hover {
+
+.music-text {
+  background-repeat: no-repeat;
+  padding: 20px 60px;
+  background-size: 100%;
+  border-radius: 3px;
+  text-transform: uppercase; }
+  .music-text:hover {
     background: #e1cba9;
     -o-transition: 1s;
     -ms-transition: 1s;
@@ -125,9 +127,9 @@ a:hover {
     -webkit-transition: 1s;
     transition: 1s;
     color: black; }
-  .home-text a {
+  .music-text a {
     color: black; }
-  .home-text a:hover {
+  .music-text a:hover {
     color: black;
     -o-transition: 1s;
     -ms-transition: 1s;
