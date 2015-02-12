@@ -269,7 +269,7 @@ div.jp-type-playlist div.jp-playlist {
     top: 13px;
     right: 5px; }
   div.jp-type-playlist div.jp-playlist a {
-    color: white;
+    color: #e1cba9;
     padding: 20px;
     padding-left: 44px; }
     div.jp-type-playlist div.jp-playlist a:hover {
@@ -287,7 +287,7 @@ div.jp-type-playlist div.jp-playlist {
     top: 13px; }
   @media (max-width: 500px) {
     div.jp-type-playlist div.jp-playlist a {
-      font-size: 22px; } }
+      font-size: 13px; } }
 
 div.jp-audio {
   width: auto; }
@@ -406,7 +406,7 @@ div.jp-audio, div.jp-video {
 
 .music-titles p {
   margin: 6% 0 2% 0;
-  color: #eeeeee;
+  color: #e1cba9;
   text-transform: uppercase; }
 
 .download {
