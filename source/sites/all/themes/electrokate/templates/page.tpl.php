@@ -10,7 +10,6 @@
 <html xmlns:og="http://opengraphprotocol.org/schema/">
 </html>
 
-
 <!-- <div id="my-search" class ="google-search">
 <script>
   (function() {
@@ -24,9 +23,9 @@
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<gcse:search></gcse:search> -->
 
-</div> -->
+</div>
 <div id="header-wrapper" class="container-fluid">
 
 
@@ -126,6 +125,18 @@
 
 
 </div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- My First add -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4716326963308620"
+     data-ad-slot="4660711394"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 
 
