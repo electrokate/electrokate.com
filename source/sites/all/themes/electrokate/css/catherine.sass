@@ -3,13 +3,13 @@
 	background: white
 
 body
-	background: black
+	background-image: none
 	background-size: cover
-	background-repeat: no-repeat
+	background-repeat: repeat
 	padding: 0
 
 p
-	color: #F1D4A7
+	color: black
 
 #page
 	background: none
@@ -17,13 +17,13 @@ p
 	padding: 60px 0% 0% 0%
 	margin: 0 auto
 	display: table
-	@media (max-width:500px)
+	@media (max-width:767px)
 		padding: 0
 
 a
-	color: #bfbbbb
+	color: black
 a:hover
-	color: #e1cba9
+	color: grey
 
 
 #navigation-pages 
@@ -36,23 +36,23 @@ a:hover
 
 		li 
 			a 
-				color: #e1cba9
+				color: black
 				letter-spacing: 0.1em
 				font-size: 16px
 				display: block
 				padding: 0
 				&:hover
-					background: #e1cba9
-					color: #000
+					background: none
+					color: grey
 					border-radius: 3px
 
 				@media (max-width:500px)
 					font-size: 13px
 					padding: 0
 			a.active
-				background: #e1cba9
+				background: none
 				color: #000
-				padding: 2px 10px
+				
 				border-radius: 3px
 		@media (max-width:500px)
 			li.menu__item.is-leaf.last.leaf
@@ -100,34 +100,32 @@ a:hover
 	margin: 0 20px
 .home-text
 	color: #B6A386
-	padding: 0 23%
+
+	text-align: left
 	p
-		padding: 20px 0
+		padding: 10px 0
+		width: 150px
+
 	@media (max-width:768px)
 		padding: 0 0
 .music-text 
 	background-repeat: no-repeat
-	padding: 20px 60px
+	
 	background-size: 100%
 	border-radius: 3px
 	text-transform: uppercase
 	&:hover
-		background: #e1cba9
-		-o-transition: 1s
-		-ms-transition: 1s
-		-moz-transition: 1s
-		-webkit-transition: 1s
-		transition: 1s
-		color: #000
+		background: none
+		-o-transition: .3s
+		-ms-transition: .3s
+		-moz-transition: .3s
+		-webkit-transition: .3s
+		transition: .3s
+		color: grey
 	a
-		color: #000
+		color: grey
 	a:hover
-		color: #000
-		-o-transition: 1s
-		-ms-transition: 1s
-		-moz-transition: 1s
-		-webkit-transition: 1s
-		transition: 1s
+		color: grey
 
 
 
@@ -243,46 +241,47 @@ div.jp-type-playlist
 		background-color: transparent
 		border: none
 		li
+			text-align: left
+			display: inline-block
+			width: 317px
+		
 		@media (max-width:500px)
 			li	
 				padding: 10px 0px 4px 0px !important
+				text-align: left
+				display: table
 		li.jp-playlist-current
 			list-style-type: none
 			border-bottom: none
-			padding-bottom: 20px !important
 
-		a.jp-playlist-current
-			color: #FFDFAD
-			padding: 20px
-			background: #e1cba9
-			-o-transition: 1s
-			-ms-transition: 1s
-			-moz-transition: 1s
-			-webkit-transition: 1s
-			transition: 1s
-			color: #000	
-			border-radius: 3px
-			padding-left: 5px
-
-		a.jp-playlist-current:before	
+			margin-top: -6px
+		li.jp-playlist-current:before	
 
 			content: url("../images/play-button.png")
-			position: relative
-			top: 13px
-			right: 5px
+			top: 10px
+		
+					
+
+		a.jp-playlist-current
+
+			color: black
+			padding: 20px
+			background: none
+			color: #000	
+		
 
 		a
-			color: #e1cba9
+			color: black
 			padding: 20px
-			padding-left: 44px
+			
 			&:hover
-				background: #e1cba9
+				background: none
 				-o-transition: 1s
 				-ms-transition: 1s
 				-moz-transition: 1s
 				-webkit-transition: 1s
 				transition: 1s
-				color: #000	
+				color: grey
 				border-radius: 3px
 		a:before	
 
@@ -422,7 +421,6 @@ div.jp-audio, div.jp-video
 .right-buttons
 	float: left
 	@media (max-width:500px)
-		float: none
 		padding: 10px 0
 
 .fb-like-box
@@ -467,3 +465,112 @@ div.jp-audio, div.jp-video
 	margin-right: 0
 
 
+.electrokate-image 
+
+	position: absolute
+	background-size: cover
+	overflow: hidden
+	img 
+		@media (max-width: 886px)
+			max-width: 600%
+		-moz-animation-name: frontphoto
+		-moz-animation-iteration-count: 1
+		-moz-animation-timing-function: ease-in
+		-moz-animation-duration: 20s
+
+		-webkit-animation-name: frontphoto
+		-webkit-animation-iteration-count: 1
+		-webkit-animation-timing-function: ease-in
+		-webkit-animation-duration: 20s
+
+		animation-name: frontphoto
+		animation-iteration-count: 1
+		animation-timing-function: ease-in
+		animation-duration: 20s
+
+
+@-moz-keyframes frontphoto 
+	100% 
+		-moz-transform: scale(1) 
+	0% 
+		-moz-transform: scale(1.2) 
+    
+
+@-webkit-keyframes frontphoto 
+	100% 
+		-webkit-transform: scale(1) 
+	0% 
+		-webkit-transform: scale(1.2) 
+
+
+@keyframes frontphoto 
+	100% 
+		transform: scale(1)
+	0% 
+		transform: scale(1.2)
+
+#header-wrapper
+	position: absolute
+	margin: 16% 0 0 12%
+	@media (max-width:500px)
+		margin: 36% 0 0 19%
+#header-wrapper-pages
+	position: absolute
+	margin: -60px 0 0 55%
+	@media (max-width:767px)
+		margin: 2px 0 0 55%
+		z-index: 2000
+		width: 150px
+.electrokate-front
+	position: absolute
+	margin: 28% 0 0 20%
+	@media (max-width:500px)
+		margin: 50%
+.electrokate-pages
+	position: absolute
+	margin: 8% 0 0 56%
+	@media (max-width:767px)
+		margin: 0% 0 0 0%
+		width: 100%
+		padding: 0
+		position: fixed
+		z-index: 200
+.electrokate-pages-content
+	position: absolute
+	margin: 10% 0 0 0
+	width: 95%
+	@media (max-width:767px)
+		margin: 18% 0 0 0%
+.electrokate-social
+	display: none
+#skip-link
+	display: none
+
+.ui-widget-header
+	background: none
+	border: none
+.ui-widget-content
+	background: none
+	border: none
+.ui-state-default
+	background: none !important
+	border: none !important
+.ui-state-active
+	background: rgba(173, 173, 173, 0.5) !important
+	border: none !important
+.ui-state-hover
+	background: rgba(173, 173, 173, 0.5) !important
+	border: none !important
+.ui-corner-top
+	border-top-right-radius: 0
+	border-top-left-radius: 0
+
+
+@media (min-width:767px)
+	.pane-quicktabs-music-mobile
+		display: none
+@media (max-width:767px)
+	.pane-quicktabs-music
+		display: none
+	.ui-accordion-content-active
+		overflow: hidden !important

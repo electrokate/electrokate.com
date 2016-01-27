@@ -24,15 +24,16 @@
   })();
 </script>
 <gcse:search></gcse:search> -->
-
-</div>
-<div id="header-wrapper" class="container-fluid">
+    <div class="electrokate-image">
+      <img src="/sites/all/themes/electrokate/images/turntable-1109588_2.png">
+    </div>
+<div id="header-wrapper-pages" class="container-fluid">
 
 
 
 <div id="electrokate-logo" class="ek-logo">
  <a href="/" title="Home" rel="home">
-          <img src="/sites/all/themes/electrokate/images/logo-ek5.png" alt="Home"/>
+          <img src="/sites/all/themes/electrokate/images/electrokate.png" alt="Home"/>
         </a>
 
 
@@ -59,7 +60,7 @@
 
   
       <?php if (!$is_front):?>
-<div id="menu-wrapper" class="container-fluid">
+<div id="menu-wrapper" class="container-fluid electrokate-pages">
 <div class="row-fluid">
 <div class="span12">
 <div class="electrokate-menu-pages" >
@@ -77,7 +78,7 @@
 </div>
        <?php endif; ?>
 
-<div class="container-fluid ">
+<div class="container-fluid electrokate-pages-content">
 
 
 
@@ -126,28 +127,17 @@
 
 </div>
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- My First add -->
-<ins class="adsbygoogle"
+<!--<ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4716326963308620"
      data-ad-slot="4660711394"
      data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script>-->
 
- 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- New Ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4716326963308620"
-     data-ad-slot="6290391792"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
   <?php print render($page['footer']); ?>
 

@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * Implements hook_help().
+ *
+ * Displays help and module information.
+ *
+ * @param path 
+ *   Which path of the site we're using to display help
+ * @param arg 
+ *   Array that holds the current path as returned from arg() function
+ */
+
+function musician_profile_help($path, $arg) {
+	switch ($path) {
+		case "admin/help#musician_profile":
+			return '<p>' . t("Creates a profile for musicians who log in to the site.") . '<p>';
+			break;
+	}
+
+}
+
+/**
+* Implements hook_menu(). 
+*/
+
+function musician_profile_menu() {
+
+	$items['musicians'] = array(
+		'title' => 'Electrokate Profile',
+		'page callback' => 'musician_profile_custom',
+		'access arguments' => array('access content'),
+		);
+	return $items;
+
+}
+/**
+* Custom callback function.
+*/
+function musician_profile_custom($name = '', $jkl = '') {
+
+    $content['raw_markup'] = array(
+		'#type' => 'markup',
+		'#markup' => '<p>' . $name . ' Profile</p>',
+		);
+  return $content;
+  }
+
+
+
+
+

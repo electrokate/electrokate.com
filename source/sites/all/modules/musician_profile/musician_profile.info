@@ -1,0 +1,3 @@
+name = Musician Profile
+description = Provides a platform for musicians to login and build their own profile page with their own songs, bio and photo. 
+core = 7.x
